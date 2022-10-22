@@ -12,6 +12,7 @@ google-auth==2.13.0
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
 grpcio==1.50.0
+gunicorn @ git+https://github.com/benoitc/gunicorn.git@69c508ac6e4b301045d3ce21acce8b416415d4c5
 h5py==3.7.0
 idna==3.4
 importlib-metadata==5.0.0

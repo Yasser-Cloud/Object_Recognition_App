@@ -1,1 +1,1 @@
-web guncorn myWebApp.wsgi:imgUpload --log-file -
+web guncorn myWebApp.wsgi --log-file -
