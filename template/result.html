@@ -1,13 +1,14 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <h1>Congratulations!! result page xD</h1>
-{% for r,p in res %}
-  {{r}} {{p}}%<br>
-{% endfor %}
-  </body>
-</html>
+
+{%load static %}
+<link rel="stylesheet" href="{% static 'style.css'%}">
+
+
+  <form class="container2"  method="post">
+    {% csrf_token %}
+    <h2>Congratulations!!</h2>
+    {% for r,p in res %}
+    <p>{{r}}    {{p}}% </p>
+    {% endfor %}
+
+  </form>
+    <title>Result</title>
