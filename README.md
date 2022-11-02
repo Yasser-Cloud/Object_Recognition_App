@@ -1,4 +1,4 @@
-# Object_Recognition_App
+# Object Recognition App
 
 Deep learning web app for recognizing objects includes 1000 classes.
 
